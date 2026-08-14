@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Estado civil</legend>
+            <p>
+                <input type="radio"
+                name="estado_civil" id="casado"
+                value="casado">
+                <label for="casado">Casado</label>
+            </p>
+
+            <p>
+                <input type="radio"
+                name="estado_civil" id="divorciado"
+                value="divorciado">
+                <label for="divorciado">Divorciado</label>
+            </p>
+
+            <p>
+                <input type="radio"
+                name="estado_civil" id="viuvo"
+                value="viuvo">
+                <label for="viuvo">Viuvo</label>
+            </p>
+
+        </fieldset>
+<br>
+<hr>
+<br>
+        <fieldset>
+            <legend>Equipamentos</legend>
+            <p>
+                <input type="checkbox"
+                name="impressora" id="impressora"
+                value="impressora">
+                <label for="impressora">impressora</label>
+            </p>
+            <p>
+                <input type="checkbox"
+                name="monitor" id="monitor"
+                value="monitor">
+                <label for="monitor">Monitor</label>
+            </p>
+            <p>
+                <input type="checkbox"
+                name="Mouse" id="Mouse"
+                value="Mouse">
+                <label for="Mouse">Mouse</label>
+            </p>
+        </fieldset>
+        
+        <p>
+            <label for="busca">Busca: </label>
+            <input type="search" name="busca" id="busca">
+        </p>
+        <p>
+            <label for="cor">Cor: </label>
+            <input type="color" name="cor" id="cor">
+        </p>
+
+        <p>
+            <label for="mensagem">mensagem: </label>
+            <textarea name="mensagem" id="mensagem" rows="5" cols="30 ">mensagem: </textarea>
+        </p>
+
+        <p>
+            <label for="estado">Estado: </label>
+            <select name="estado" id="estado">
+                <option value="0" disabled selected>Escolha uma opção</option>
+                <option value="ES">Espirito Santo</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="SP">São Paulo</option>
+            </select>
+        </p>
+
+        <p>
+            <label for="meios_transporte">Meios de transporte</label>
+            <select name="meios_transporte" id="meios_transporte">
+                <optgroup label="Carros">
+                    <option value="fusca">Fusca</option>
+                    <option value="onix">Onix</option>
+                </optgroup>
+
+                <optgroup label="Motos">
+                    <option value="XJ6">XJ6</option>
+                    <option value="hornet">Hornet</option>
+                </optgroup>
+
+            </select>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar dados">
+        </p>
+    </form>
+    <hr>
+    <details>
+        <summary>Exibi/ocultar</summary>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Vel molestias veniam reiciendis ducimus officia omnis, 
+            sunt voluptate quaerat laudantium, illum incidunt temporibus. 
+            Tempore, voluptatibus sed quaerat voluptatum facere molestias quasi.</p>
+    </details>
+
+
+
+</body>
+</html>
